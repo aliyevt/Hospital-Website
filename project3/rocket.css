@@ -1,0 +1,1317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a1, .a2, .a3, .a4{
+    color: #777777;
+    font-size: 13px;
+}
+.zeus{
+    display: flex;
+    margin-left: 185px;
+}
+.mon{
+    margin: 12px;
+}
+.a1:hover{
+    color: #3face4;
+    transition: 0.4s;
+}
+.a2:hover{
+    color: #3face4;
+    transition: 0.4s;
+}
+.a3:hover{
+    color: #3face4;
+    transition: 0.4s;
+}
+.a4:hover{
+    color: #3face4;
+    transition: 0.4s;
+}
+.a5{
+    color: #3face4;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 65px;
+}
+.a6:hover{
+    color: #3face4;
+    transition: 0.4s;
+}
+.a5:hover+.a6{
+    color: #3face4;
+    transition: 0.4s;
+}
+.a6{
+     text-decoration: none;
+     font-family: 'Roboto', sans-serif;
+     color: #777777;
+     font-size: 12px;
+     margin-top: 10px;
+     margin-left: 15px;
+}
+.zeus2{
+    display: flex;
+    margin-left: 40%;
+}
+.a7{
+    font-size: 12px;
+    color: #3face4; 
+}
+.a8{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 12px;
+    margin-left: 13px;
+}
+.a8:hover{
+    color: #3face4;
+    transition: 0.4s;
+}
+.a7:hover+.a8{
+    color: #3face4;
+    transition: 0.4s;
+}
+.icon6{
+    margin-top: 8px;
+    margin-left: 50px;
+}
+.hr1{
+    opacity: 0.2;
+    
+}
+.elon{
+    width: 100%;
+    height: 90px;
+    margin-top: -2px;
+    background-color: rgba(235, 232, 232, 0.38);
+}
+.img1{
+    margin-left: 185px;
+    margin-top: 30px;
+}
+.contact{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.contact:hover{
+    color: #3face4;
+    transition: 0.3s;
+}
+.can{
+margin: 25px;
+}
+.dodge{
+margin-left: 720px;
+margin-top: -60px;
+}
+.a10{
+    text-decoration: none;
+}
+.sand{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.home{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px; 
+}
+.a12{
+    text-decoration: none;
+    color: black;
+}
+.about{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.a12:hover{
+    color: #3face4;
+    transition: 0.3s;
+}
+.a13{
+    text-decoration: none;
+    color: black;
+}
+.a13:hover{
+    color: #3face4;
+    transition: 0.3s;
+}
+.a14{
+    text-decoration: none;
+    color: black;
+}
+.a14:hover{
+    color: #3face4;
+    transition: 0.3s;
+}
+.services{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+ul{
+  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.dropdown{
+  position: relative;
+ cursor: pointer;
+  padding: 10px;
+}
+.dropdown1{
+  position: relative;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 20px;
+}
+.menu{
+  position: absolute;
+  margin-top: 36.9px;
+  background-color: white;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.change{
+  padding: 15px;
+  width: 200px;
+  color: black;
+}
+.change:hover{
+    color: #3face4;
+}
+.a11{
+    text-decoration: none;
+    color: #3face4;
+}
+.dropdown:hover{
+  color: #3face4;
+}
+.dropdown1:hover{
+  color: #3face4;
+}
+.asus{
+  opacity: 0.4;
+}
+.dropdown:hover .menu{
+  visibility: visible;
+  opacity: 1;
+}
+.dropdown1:hover .menu{
+  visibility: visible;
+  opacity: 1;
+}
+.change:hover {
+  background-color: #3face4;
+  color: white;
+  cursor: pointer;
+}
+.center{
+    width: 100%;
+    height: 750px;
+    background-image: url(https://preview.colorlib.com/theme/hospice/img/banner/home.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.most{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    padding-top: 245px;
+    padding-left: 193px;
+}
+.p1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 195px;
+    line-height: 24px;
+    padding-top: 30px;
+}
+.btn1{
+    width: 149px;
+    height: 50px;
+    background-color: #3face4;
+    border: none;
+    margin-left: 195px;
+    margin-top: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.get{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.btn1:hover{
+    background-color: white;
+    transition: 0.4s;
+}
+.btn1:hover .get{
+    color: #3face4;
+    transition: 0.4s;
+}
+.more{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 120px;
+}
+.got{
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 25px;
+}
+.semi{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.container5{
+    width: 360px;
+    height: 350px;
+    position: absolute;
+    margin-left: -800px;
+  cursor: pointer;
+}
+.overlay5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 360px;
+    height: 350px;
+    bottom: 0;
+    opacity: 0;
+    margin-left: 0px;
+    transition: opacity 0.4s ease-in-out;
+    background: #000000;
+}
+.content5{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+
+}
+.have{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 70px; 
+}
+.container5:hover .overlay5{
+    opacity: 0.7;
+}
+.line{
+    background-color: white;
+    height: 1px;
+    width: 213px;
+    margin-left: 68px;
+    margin-top: 135px;
+}
+.line2{
+    background-color: white;
+    height: 1px;
+    width: 213px;
+    margin-left: 69px;
+    margin-top: 60px;
+}
+.container6{
+    width: 360px;
+    height: 350px;
+    position: absolute;
+    cursor: pointer;
+    margin-left: -25px;
+}
+.overlay6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 360px;
+    height: 350px;
+    bottom: 0;
+    opacity: 0;
+    margin-left: 0px;
+    transition: opacity 0.4s ease-in-out;
+    background: #000000;
+}
+.container6:hover .overlay6{
+    opacity: 0.7;
+}
+.container7{
+    width: 360px;
+    height: 350px;
+    position: absolute;
+    margin-left: 750px;
+    cursor: pointer;
+}
+.overlay7{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 360px;
+    height: 350px;
+    bottom: 0;
+    opacity: 0;
+    margin-left: 0px;
+    transition: opacity 0.4s ease-in-out;
+    background: #000000;
+}
+.container7:hover .overlay7{
+    opacity: 0.7;
+}
+.flex{
+    margin-top: 450px;
+}
+.box{
+    background-color: #f9f9ff;
+    width: 570px;
+    height: 668px;
+}
+.flex{
+    display: flex;
+    margin-left: 181px;
+}
+.says{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 115px;
+    padding-top: 81px;
+    font-size: 36px;
+}
+.p2{
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: 17px;
+    margin-left: 114px;
+}
+.box1{
+    border: 1px solid #cecccc;
+    border-radius: 5px;
+    background-color: white;
+    width: 150px;
+    height: 142px;
+}
+.box2{
+    border: 1px solid #cecccc;
+    border-radius: 5px;
+    background-color: white;
+    width: 150px;
+    height: 142px;
+    margin-left: 30px;
+}
+.allBoxes{
+    display: flex;
+    margin-left: 110px;
+    margin-top: 40px;
+}
+.box3{
+    border: 1px solid #cecccc;
+    border-radius: 5px;
+    background-color: white;
+    width: 150px;
+    height: 142px;
+}
+.box4{
+    border: 1px solid #cecccc;
+    border-radius: 5px;
+    background-color: white;
+    width: 150px;
+    height: 142px;
+    margin-left: 30px;
+}
+.allBoxes2{
+    display: flex;
+    margin-left: 110px;
+    margin-top: 35px;
+}
+.box1:hover{
+    box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.79), 0 6px 20px 0 rgba(191, 190, 190, 0.19);
+    transition: 0.5s;
+}
+.box2:hover{
+    box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.79), 0 6px 20px 0 rgba(191, 190, 190, 0.19);
+    transition: 0.5s;
+}
+.box3:hover{
+    box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.79), 0 6px 20px 0 rgba(191, 190, 190, 0.19);
+    transition: 0.5s;
+}
+.box4:hover{
+    box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.79), 0 6px 20px 0 rgba(191, 190, 190, 0.19);
+    transition: 0.5s;
+}
+.data{
+    color: #3face4;
+    font-size: 25px;
+    padding-left: 20.5px;
+    padding-top: 20px;
+}
+.count{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 14px;
+}
+.has{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #777777;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.giant{
+    width: 100%;
+    height: 790px;
+    background-color: #f9f9ff;
+    margin-top: 125px;
+}
+.let{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 120px;
+}
+.var{
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 27px;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.mens{
+    display: flex;
+    margin-left: 190px;
+    margin-top: 81px;
+}
+.put{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    padding-top: 70px;
+}
+.sets{
+    display: flex;
+}
+.div-icon{
+    color: orange;
+}
+.div-icon1{
+    color: #777777;
+}
+.con{
+    margin: 1px;
+}
+.allIcons{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.access{
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.area{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 129px;
+}
+.meal{
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.icon-1{
+    color: #3face4;
+    font-size: 35px;
+}
+.nasa{
+    display: flex;  
+    justify-content: center;
+    margin-top: 20px;
+}
+.the{
+    margin: 50px;
+}
+.icon-2{
+    color: #3face4;
+    font-size: 35px;
+}
+.icon-3{
+    color: #3face4;
+    font-size: 35px;
+}
+.icon-4{
+    color: #3face4;
+    font-size: 35px;
+}
+.stamp{
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 1px;
+    font-size: 18px;  
+    font-family: 'Roboto', sans-serif;
+}
+.stamp-1{
+    margin-top: 25px;
+}
+.insert{
+    margin-top: 25px;
+}
+.enter{
+    margin-top: 25px;
+}
+.shift{
+    margin-top: 25px;
+}
+.flow{
+    color: #777777;
+    font-family:  'Roboto', sans-serif;
+    font-size: 14px;
+    display: block;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.insert-1{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px; 
+    letter-spacing: 1px; 
+    font-family: 'Roboto', sans-serif;
+}
+.enter-1{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;  
+    font-family: 'Roboto', sans-serif;
+}
+.shift-1{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;  
+    font-family: 'Roboto', sans-serif;
+}
+.earth{
+    text-align: center;
+    cursor: pointer;
+}
+.mars{
+    text-align: center;
+    cursor: pointer;
+}
+.jupi{
+    text-align: center;
+    cursor: pointer;
+}
+.merk{
+    text-align: center;
+    cursor: pointer;
+}
+.stamp:hover{
+    color: #3face4;
+    transition: 0.4s;
+}
+.earth:hover .stamp{
+    color: #3face4;
+    transition: 0.4s;
+}
+.insert-1:hover{
+    color: #3face4;
+    transition: 0.4s;
+}
+.mars:hover .insert-1{
+    color: #3face4;
+    transition: 0.4s;
+}
+.enter-1:hover{
+    color: #3face4;
+    transition: 0.4s;
+}
+.jupi:hover .enter-1{
+    color: #3face4;
+    transition: 0.4s;
+}
+.shift-1:hover{
+    color: #3face4;
+    transition: 0.4s;
+}
+.merk:hover .shift-1{
+    color: #3face4;
+    transition: 0.4s;
+}
+
+.wind{
+    background-color: #f9f9ff;
+    width: 100%;
+   /* height: 555px;*/
+   
+    margin-top: 70px;
+}
+
+.cloud{
+   /* width: 555px;
+/*  height: 639px;*/
+    width: 37%;
+    height: 40%;
+    background-color: white;
+    margin-left: 769px;
+   
+    box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.79), 0 6px 20px 0 rgba(191, 190, 190, 0.19);
+}
+.auto{
+    padding: 100px;
+    margin-left: -100px;
+    margin-top: -330px;
+}
+.hour{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    padding-left: 185px;
+    padding-top: 125px;
+    margin-top: -400px;
+    
+}
+.steve{
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 14px;
+    padding-left: 185px;
+    line-height: 25px;
+    padding-top: 20px;
+}
+.face{
+    display: flex;
+    margin-left: 184px;
+    margin-top: 60px;
+}
+.monday{
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+    font-size: 14px;
+}
+.friday{
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+    font-size: 14px;
+    margin-left: 230px;
+}
+.pods{
+    width: 450px;
+    margin-left: 184px;
+    opacity: 0.2;
+    margin-top: 25px;
+}
+.solid{
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+    font-size: 14px;
+    margin-left: -5px;
+}
+.solid1{
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+    font-size: 14px;   
+    margin-left: 271px;
+}
+.solid2{
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+    font-size: 14px;   
+}
+.solid3{
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+    font-size: 14px;   
+    margin-left: 271px;
+}
+.wedday{
+    display: flex;
+    margin-left: 184px;
+    margin-top: 25px;
+}
+.note{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 40px;
+}
+.air{
+    outline: none;
+    border: 1px solid #c1bfbf;
+    width: 475px;
+    height: 38px;
+    padding-left: 13px;
+    margin-left: 40px ;
+    margin-top: 20px;
+}
+.air:focus{
+    border-color: #3face4;
+}
+.air1{
+    outline: none;
+    border: 1px solid #c1bfbf;
+    width: 475px;
+    height: 38px;
+    padding-left: 13px;
+    margin-left: 40px ;
+    margin-top: 10px;
+}
+.air1:focus{
+    border-color: #3face4;
+}
+.air2{
+    outline: none;
+    border: 1px solid #c1bfbf;
+    width: 475px;
+    height: 38px;
+    padding-left: 13px;
+    margin-left: 40px ;
+    margin-top: 10px;
+}
+.air2:focus{
+    border-color: #3face4;
+}
+.air3{
+    outline: none;
+    border: 1px solid #c1bfbf;
+    width: 475px;
+    height: 38px;
+    padding-left: 13px;
+    margin-left: 40px ;
+    margin-top: 10px;
+}
+.air3:focus{
+    border-color: #3face4;
+}
+.air4{
+    outline: none;
+    border: 1px solid #c1bfbf;
+    width: 475px;
+    height: 38px;
+    padding-left: 13px;
+    margin-left: 40px ;
+    margin-top: 10px;
+}
+.air4:focus{
+    border-color: #3face4;
+}
+select{
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 475px;
+    color: #777777;
+    font-weight: 700;
+    padding-left: 10px;
+    cursor: pointer;
+    height: 38px;
+    box-shadow: none;
+    text-shadow: none;
+    background-image: none;
+    border: 1px solid #c1bfbf;
+    outline: none;
+}
+.air5{
+    outline: none;
+    border: 1px solid #c1bfbf;
+    width: 475px;
+   
+    resize: vertical;
+    font-family: 'Roboto', sans-serif;
+    padding: 13px;
+    margin-left: 40px ;
+    margin-top: 10px;
+}
+.air5:focus{
+    border-color: #3face4;
+}
+.charge{
+    width: 198px;
+    height: 50px;
+    background-color: #3face4;
+    color: white;
+    margin-left: 181px;
+    border: none;
+   position: relative;
+   
+   bottom: 30px;
+    font-weight: 700;
+   margin-top: 50px;
+    cursor: pointer;
+}
+.charge:hover{
+    background-color: white;
+    border: 1px solid #3face4;
+    transition: 0.4s;
+}
+.charge:hover .conf{
+    color: #3face4;
+    transition: 0.4s;
+}
+
+
+.recent{
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 150px;
+}
+.lorem{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: 17px;
+}
+.row{
+    width: 360px;
+    height: 220px;
+  /* position: absolute;*/
+  cursor: pointer;
+    overflow: hidden;
+}
+.row img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+.row:hover img{
+    transform: scale(1.1);
+}
+.allPhoto{
+    display: flex;
+    justify-content: center;
+    margin-top: 67px;
+}
+.vers{
+    margin: 17px;
+}
+.allText{
+    display: flex;
+    margin-left: 165px
+}
+.a-bro{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.text1:hover .a-bro{
+    color: #3face4;
+    transition: 0.4s;
+}
+.a-bro1{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.a-bro2{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 47px;
+    letter-spacing: 0.7px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.boys{
+    margin: 20px;
+}
+.devel{
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.cams2{
+    display: flex;
+}
+.devel2{
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.cams1{
+    display: flex;
+}
+.icon-cal1{
+    color: #777777;
+    margin-top: 34px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.icon-cal1::after{
+content: "13th Dec";
+font-family: 'Roboto', sans-serif;
+margin-left: 4px;
+}
+.icon-heart1{
+    color: #777777;
+    margin-top: 34px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.icon-heart1::after{
+    content: "15";
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4px;
+}
+.icon-cal2{
+    color: #777777;
+    margin-top: 34px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.icon-cal2::after{
+    content: "13th Dec";
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4px;
+}
+.icon-heart2{
+    color: #777777;
+    margin-top: 34px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.icon-heart2::after{
+    content: "15";
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4px;
+}
+.text2:hover .a-bro1{
+    color: #3face4;
+    transition: 0.4s;
+}
+.icon-com1{
+    margin-top: 34px;
+    color: #777777;
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: 14px;
+}
+.icon-com1::after{
+    content: "04";
+    margin-left: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.text3:hover .a-bro2{
+    color: #3face4;
+    transition: 0.4s;
+}
+.icon-com2{
+    margin-top: 34px;
+    color: #777777;
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: 14px;
+}
+.icon-com2::after{
+    content: "04";
+    margin-left: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.devel1{
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.icon-cal{
+    color: #777777;
+    margin-top: 34px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.icon-cal::after{
+    content: "13th Dec";
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4px;
+    font-size: 14px;
+}
+.icon-heart{
+    margin-top: 34px;
+    color: #777777;
+    cursor: pointer;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.text1,.text2,.text3{
+    cursor: pointer;
+}
+.icon-heart::after{
+    content: "15";
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4px;
+}
+.icon-com{
+    margin-top: 34px;
+    color: #777777;
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: 14px;
+}
+.icon-com::after{
+    content: "04";
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4px;
+}
+.cams{
+    display: flex;
+}
+.bootle{
+    width: 100%;
+    height: 539px;
+    background-color: #222222;
+    margin-top: 114px;
+}
+.allMens{
+    display: flex;
+}
+.top{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.top-1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.top-2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 35px;
+    margin-top: 15px;
+}
+.top-3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    padding-top: 114px;
+    margin-left: 50px;
+}
+.york{
+    margin-left: 190px;
+    padding-top: 114px;
+}
+.york-1{
+    margin-left: 70px;
+    padding-top: 114px;
+}
+.school{
+    color: #777777;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.school-1{
+    color: #777777;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.school-2{
+    color: #777777;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 24px;
+    margin-left: 50px;
+}
+.end-inp{
+    width: 294px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 17px;
+    border-radius: 40px;
+    background-color: #2d2d2d;
+}
+.for{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 49px;
+}
+.end-btn{
+    background-color: #3face4;
+    width: 169px;
+    height: 42px;
+    margin-left: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+}
+.icon-right{
+    padding-left :90px;
+    color: white;
+    margin-top: -15px;
+}
+.end-into{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: -9px;
+    margin-top: 0px;
+}
+.end-btn:hover{
+    background-color: black;
+    border: 1px solid #3face4;
+    transition: 0.4s;
+}
+.end-btn:hover .icon-right{
+    color: #3face4;
+    transition: 0.4s;
+}
+.end-btn:hover .end-into{
+    color: #3face4;
+    transition: 0.4s;
+}
+.end-colorlib{
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.end-close{
+    display: flex;
+    margin-left: 190px;
+    margin-top: 85px;
+}
+.end-heart{
+    color: #3face4;
+    font-size: 14px;
+    margin-left: 3px;
+}
+.end-heart::after{
+    content: "by";
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    margin-left: 4px;
+}
+.end-a{
+    text-decoration: none;
+    color: #3face4;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 3px;
+    font-size: 14px;
+}
+.end-socials{
+    display: flex;
+    margin-left: 510px;
+}
+.end-a1{
+    background-color: black;
+    width: 32px;
+    height: 34px;
+}
+.end-a2{
+    background-color: black;
+    width: 32px;
+    height: 34px;
+}
+.end-a3{
+    background-color: black;
+    width: 32px;
+    height: 34px;
+}
+.end-a4{
+    background-color: black;
+    width: 32px;
+    height: 34px;
+}
+.nose{
+    margin: 2px;
+}
+.end-face{
+    color: white;
+    padding-left: 10.9px;
+    padding-top: 8.5px;
+}
+.end-twitter{
+    color: white;
+    padding-left: 8.7px;
+    padding-top: 8.5px;
+}
+.end-drib{
+    color: white;
+    padding-left: 8.4px;
+    padding-top: 8.5px;
+}
+.end-behance{
+    color: white;
+    padding-left: 7.5px;
+    padding-top: 8.5px;
+}
+.end-a1:hover{
+    background-color: #3face4;
+    transition: 0.5s;
+}
+.end-a2:hover{
+    background-color: #3face4;
+    transition: 0.5s;
+}
+.end-a3:hover{
+    background-color: #3face4;
+    transition: 0.5s;
+}
+.end-a4:hover{
+    background-color: #3face4;
+    transition: 0.5s;
+}
